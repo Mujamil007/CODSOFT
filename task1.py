@@ -44,7 +44,7 @@ def retrive_database():
 if ___name__ == "__main__":
   guiWindow = tk.Tk()
   guiWindow.title("To_Do List Manager - MUJAMIL")
-  guiWindow.geometry("500*450+750+250")
+  guiWindow.geometry("500x450+750+250")
   guiWindow.resizable(0 ,0)
   guiWindow.configure(bg = "#FAEBD7")
   the_connection = sql.connect('listOfTasks.db')
